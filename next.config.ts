@@ -1,22 +1,9 @@
 import type { NextConfig } from "next";
-// import { withLingo } from "@lingo.dev/compiler/next";
+import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
   /* config options here */
 };
 
-export default nextConfig;
-
-// export default async function (): Promise<NextConfig> {
-//   return await withLingo(nextConfig, {
-//     sourceRoot: "./app",
-//     lingoDir: ".lingo",
-//     sourceLocale: "en",
-//     targetLocales: ["de", "fr", "ja"],
-//     models: "lingo.dev",
-//     buildMode: "translate",
-//     dev: {
-//       usePseudotranslator: false,
-//     },
-//   })
-// }
+const withNextIntl = createNextIntlPlugin();
+export default withNextIntl(nextConfig);

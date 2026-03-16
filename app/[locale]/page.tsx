@@ -1,6 +1,16 @@
-import Link from "next/link"
+import {useTranslations} from 'next-intl';
 
 export default function HomePage() {
+  
+  const t = useTranslations('nav');
+  const h = useTranslations('hero');
+  const s = useTranslations('stats');
+  const f = useTranslations('features');
+  const p = useTranslations('pricing');
+  const c = useTranslations('cta');
+  const fo = useTranslations('footer');
+  
+  
   return (
     <main className="min-h-screen bg-[#0A0A0A] text-[#EDEDED] font-sans overflow-x-hidden">
 
@@ -19,21 +29,21 @@ export default function HomePage() {
         <div className="flex items-center gap-x-2">
           <div className="w-1.5 h-1.5 rounded-full bg-[#107A4D]" />
           <span className="font-mono text-xs tracking-[0.2em] uppercase text-[#EDEDED]">
-            DemoStore
+            demostore
           </span>
         </div>
         <div className="flex items-center gap-x-8">
           <span className="font-sans text-xs tracking-[-0.03em] text-[#555555] hover:text-[#EDEDED] transition-colors cursor-pointer">
-            Products
+            {t('products')}
           </span>
           <span className="font-sans text-xs tracking-[-0.03em] text-[#555555] hover:text-[#EDEDED] transition-colors cursor-pointer">
-            Pricing
+            {t('pricing')}
           </span>
           <span className="font-sans text-xs tracking-[-0.03em] text-[#555555] hover:text-[#EDEDED] transition-colors cursor-pointer">
-            About
+            {t('about')}
           </span>
           <button className="flex items-center gap-x-1.5 px-3 py-1.5 bg-[#107A4D] hover:bg-[#0D6B42] rounded-sm font-sans text-xs tracking-[-0.03em] transition-colors cursor-pointer">
-            Get started
+            {t('getStarted')}
           </button>
         </div>
       </nav>
@@ -44,7 +54,7 @@ export default function HomePage() {
         <div className="flex items-center gap-x-2 mb-8">
           <div className="h-px w-8 bg-[#107A4D]" />
           <span className="font-mono text-xs tracking-[0.15em] uppercase text-[#107A4D]">
-            Now available worldwide
+            {h('eyebrow')}
           </span>
         </div>
 
@@ -52,33 +62,33 @@ export default function HomePage() {
         <h1 className="font-sans font-normal tracking-[-0.05em] leading-[0.95] mb-8"
           style={{ fontSize: "clamp(48px, 8vw, 120px)" }}
         >
-          Build faster.<br />
-          <span className="text-[#555555]">Ship everywhere.</span>
+          {h('headline1')}<br />
+          <span className="text-[#555555]">{h('headline2')}</span>
         </h1>
 
         {/* Subtext */}
         <p className="font-sans text-sm font-light tracking-[-0.03em] text-[#A1A1A1] max-w-md mb-12 leading-relaxed">
-          The modern platform for teams who move fast and ship globally. Everything you need, nothing you don&apos;t.
+          {h('subtext')}
         </p>
 
         {/* CTAs */}
         <div className="flex items-center gap-x-4">
           <button className="flex items-center gap-x-2 px-5 py-2.5 bg-[#107A4D] hover:bg-[#0D6B42] rounded-sm font-sans text-sm tracking-[-0.03em] transition-all duration-150 cursor-pointer">
-            Start for free
+            {h('cta1')}
             <span className="text-[#22C55E]">→</span>
           </button>
           <button className="flex items-center gap-x-2 px-5 py-2.5 border border-[#2A2A2A] hover:border-[#3A3A3A] hover:bg-[#111111] rounded-sm font-sans text-sm tracking-[-0.03em] text-[#A1A1A1] hover:text-[#EDEDED] transition-all duration-150 cursor-pointer">
-            View documentation
+            {h('cta2')}
           </button>
         </div>
 
         {/* Stats row */}
         <div className="flex items-center gap-x-12 mt-20 pt-8 border-t border-[#1A1A1A]">
           {[
-            { value: "10,000+", label: "Active teams" },
-            { value: "99.9%", label: "Uptime SLA" },
-            { value: "180ms", label: "Avg response time" },
-            { value: "50+", label: "Integrations" },
+            { value: "10,000+", label: `${s('teams')}` },
+            { value: "99.9%", label: `${s('uptime')}` },
+            { value: "180ms", label: `${s('response')}` },
+            { value: "50+", label: `${s('integrations')}` },
           ].map(({ value, label }) => (
             <div key={label} className="flex flex-col gap-y-1">
               <span className="font-mono text-xl font-normal tracking-[-0.05em] text-[#EDEDED]">
@@ -97,55 +107,26 @@ export default function HomePage() {
         <div className="flex items-center gap-x-2 mb-16">
           <div className="h-px w-8 bg-[#2A2A2A]" />
           <span className="font-mono text-xs tracking-[0.15em] uppercase text-[#555555]">
-            Everything you need
+            {f('eyebrow')}
           </span>
         </div>
 
         <div className="grid grid-cols-3 gap-px bg-[#1A1A1A]">
-          {[
-            {
-              number: "01",
-              title: "Instant deployment",
-              description: "Push your code and go live in seconds. Zero configuration, zero downtime.",
-            },
-            {
-              number: "02",
-              title: "Global edge network",
-              description: "Your app served from 200+ locations worldwide. Latency measured in milliseconds.",
-            },
-            {
-              number: "03",
-              title: "Built-in analytics",
-              description: "Understand your users with real-time data. No third-party tools required.",
-            },
-            {
-              number: "04",
-              title: "Automatic scaling",
-              description: "Handle any traffic spike automatically. Pay only for what you use.",
-            },
-            {
-              number: "05",
-              title: "Secure by default",
-              description: "End-to-end encryption, DDoS protection, and SOC 2 compliance out of the box.",
-            },
-            {
-              number: "06",
-              title: "Team collaboration",
-              description: "Invite your team, set permissions, and ship together without stepping on each other.",
-            },
-          ].map(({ number, title, description }) => (
+          {Array.from({ length: 6 }).map((_, i) => (
             <div
-              key={number}
+              key={i}
               className="flex flex-col gap-y-4 p-8 bg-[#0A0A0A] hover:bg-[#0F0F0F] transition-colors duration-200 cursor-default"
             >
               <span className="font-mono text-xs text-[#2A2A2A] tracking-[0.1em]">
-                {number}
+                {f(`items.${i}.number`)}
               </span>
+          
               <h3 className="font-sans text-sm font-normal tracking-[-0.04em] text-[#EDEDED]">
-                {title}
+                {f(`items.${i}.title`)}
               </h3>
+          
               <p className="font-sans text-xs font-light tracking-[-0.02em] text-[#555555] leading-relaxed">
-                {description}
+                {f(`items.${i}.description`)}
               </p>
             </div>
           ))}
@@ -157,7 +138,7 @@ export default function HomePage() {
         <div className="flex items-center gap-x-2 mb-16">
           <div className="h-px w-8 bg-[#2A2A2A]" />
           <span className="font-mono text-xs tracking-[0.15em] uppercase text-[#555555]">
-            Simple pricing
+            {p('eyebrow')}
           </span>
         </div>
 

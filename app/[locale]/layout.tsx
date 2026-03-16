@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-// import { LingoProvider } from "@lingo.dev/compiler/react";
+
+import {NextIntlClientProvider, hasLocale} from 'next-intl';
+import {notFound} from 'next/navigation';
+import {routing} from '@/src/i18n/routing';
+ 
+
 import "@/app/globals.css";
 import * as React from "react";
 
@@ -25,16 +30,19 @@ export default function RootLayout({
   params,
 }: {
   children: React.ReactNode
-  params: Promise<{ locale: string | undefined }>
+  params: Promise<{ locale: string }>
   }) {
-  const { locale }: { locale: string | undefined } = React.use(params)
+  const { locale } = React.use(params)
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   console.log(locale)
   return (
     <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );

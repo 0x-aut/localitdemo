@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "getStarted": "Jetzt starten"
+  },
+  "hero": {
+    "eyebrow": "Jetzt weltweit verfügbar",
+    "headline1": "Schneller entwickeln.",
+    "headline2": "Überall ausliefern.",
+    "subtext": "Die moderne Plattform für Teams, die schnell handeln und global ausliefern. Alles, was Sie brauchen, nichts, was Sie nicht brauchen.",
+    "cta1": "Kostenlos starten",
+    "cta2": "Dokumentation ansehen"
+  },
+  "stats": {
+    "teams": "Aktive Teams",
+    "uptime": "Uptime-SLA",
+    "response": "Durchschn. Antwortzeit",
+    "integrations": "Integrationen"
+  },
+  "features": {
+    "eyebrow": "Alles, was Sie brauchen",
+    "items": [
+      {
+        "number": "01",
+        "title": "Sofortige Bereitstellung",
+        "description": "Code hochladen und in Sekunden live gehen. Keine Konfiguration, keine Ausfallzeit."
+      },
+      {
+        "number": "02",
+        "title": "Globales Edge-Netzwerk",
+        "description": "Ihre App wird von über 200 Standorten weltweit ausgeliefert. Latenz im Millisekundenbereich."
+      },
+      {
+        "number": "03",
+        "title": "Integrierte Analysen",
+        "description": "Verstehen Sie Ihre Nutzer mit Echtzeit-Daten. Keine Drittanbieter-Tools erforderlich."
+      },
+      {
+        "number": "04",
+        "title": "Automatische Skalierung",
+        "description": "Bewältigen Sie jeden Traffic-Anstieg automatisch. Zahlen Sie nur für das, was Sie nutzen."
+      },
+      {
+        "number": "05",
+        "title": "Standardmäßig sicher",
+        "description": "End-to-End-Verschlüsselung, DDoS-Schutz und SOC-2-Compliance direkt einsatzbereit."
+      },
+      {
+        "number": "06",
+        "title": "Teamzusammenarbeit",
+        "description": "Laden Sie Ihr Team ein, legen Sie Berechtigungen fest und liefern Sie gemeinsam aus, ohne sich gegenseitig in die Quere zu kommen."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Transparente Preise",
+    "monthly": "/Monat",
+    "plans": [
+      {
+        "name": "Hobby",
+        "price": "Kostenlos",
+        "description": "Für persönliche Projekte und Experimente",
+        "features": [
+          "Bis zu 3 Projekte",
+          "100 GB Bandbreite",
+          "Community-Support",
+          "Basis-Analysen"
+        ],
+        "cta": "Jetzt starten"
+      },
+      {
+        "name": "Pro",
+        "price": "20 €",
+        "description": "Für professionelle Entwickler und kleine Teams",
+        "features": [
+          "Unbegrenzte Projekte",
+          "1 TB Bandbreite",
+          "Prioritäts-Support",
+          "Erweiterte Analysen"
+        ],
+        "cta": "Kostenlos testen"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Individuell",
+        "description": "Für große Teams mit erweiterten Anforderungen",
+        "features": [
+          "Alles aus Pro",
+          "Individuelle Bandbreite",
+          "Dedizierter Support",
+          "SLA-Garantie"
+        ],
+        "cta": "Vertrieb kontaktieren"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit, schneller zu liefern?",
+    "subtext": "Schließen Sie sich Tausenden von Teams an, die bereits mit uns entwickeln.",
+    "button": "Kostenlos starten"
+  },
+  "footer": {
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontaktieren Sie uns",
+    "rights": "Alle Rechte vorbehalten"
+  }
+}

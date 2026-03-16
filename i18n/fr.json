@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "products": "Produits",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "eyebrow": "Désormais disponible dans le monde entier",
+    "headline1": "Développez plus vite.",
+    "headline2": "Déployez partout.",
+    "subtext": "La plateforme moderne pour les équipes qui avancent vite et déploient à l'échelle mondiale. Tout ce dont vous avez besoin, rien de superflu.",
+    "cta1": "Commencer gratuitement",
+    "cta2": "Consulter la documentation"
+  },
+  "stats": {
+    "teams": "Équipes actives",
+    "uptime": "SLA de disponibilité",
+    "response": "Temps de réponse moyen",
+    "integrations": "Intégrations"
+  },
+  "features": {
+    "eyebrow": "Tout ce dont vous avez besoin",
+    "items": [
+      {
+        "number": "01",
+        "title": "Déploiement instantané",
+        "description": "Poussez votre code et mettez-le en ligne en quelques secondes. Zéro configuration, zéro interruption."
+      },
+      {
+        "number": "02",
+        "title": "Réseau edge mondial",
+        "description": "Votre application servie depuis plus de 200 emplacements dans le monde. Latence mesurée en millisecondes."
+      },
+      {
+        "number": "03",
+        "title": "Analytique intégrée",
+        "description": "Comprenez vos utilisateurs grâce à des données en temps réel. Aucun outil tiers requis."
+      },
+      {
+        "number": "04",
+        "title": "Mise à l'échelle automatique",
+        "description": "Gérez automatiquement n'importe quel pic de trafic. Payez uniquement ce que vous utilisez."
+      },
+      {
+        "number": "05",
+        "title": "Sécurisé par défaut",
+        "description": "Chiffrement de bout en bout, protection DDoS et conformité SOC 2 dès le départ."
+      },
+      {
+        "number": "06",
+        "title": "Collaboration d'équipe",
+        "description": "Invitez votre équipe, définissez les permissions et déployez ensemble sans vous gêner mutuellement."
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Tarification simple",
+    "monthly": "/mois",
+    "plans": [
+      {
+        "name": "Loisirs",
+        "price": "Gratuit",
+        "description": "Pour les projets personnels et les expérimentations",
+        "features": [
+          "Jusqu'à 3 projets",
+          "100 Go de bande passante",
+          "Support communautaire",
+          "Analyses de base"
+        ],
+        "cta": "Commencer"
+      },
+      {
+        "name": "Pro",
+        "price": "20 $",
+        "description": "Pour les développeurs professionnels et les petites équipes",
+        "features": [
+          "Projets illimités",
+          "1 To de bande passante",
+          "Support prioritaire",
+          "Analyses avancées"
+        ],
+        "cta": "Démarrer l'essai gratuit"
+      },
+      {
+        "name": "Entreprise",
+        "price": "Sur mesure",
+        "description": "Pour les grandes équipes aux besoins avancés",
+        "features": [
+          "Tout ce qui est inclus dans Pro",
+          "Bande passante personnalisée",
+          "Assistance dédiée",
+          "Garantie SLA"
+        ],
+        "cta": "Contacter les ventes"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Prêt à expédier plus rapidement ?",
+    "subtext": "Rejoignez les milliers d'équipes qui construisent déjà avec nous.",
+    "button": "Commencer gratuitement"
+  },
+  "footer": {
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Nous contacter",
+    "rights": "Tous droits réservés"
+  }
+}

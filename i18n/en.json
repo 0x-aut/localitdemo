@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "products": "Products",
+    "pricing": "Pricing",
+    "about": "About",
+    "getStarted": "Get started"
+  },
+  "hero": {
+    "eyebrow": "Now available worldwide",
+    "headline1": "Build faster.",
+    "headline2": "Ship everywhere.",
+    "subtext": "The modern platform for teams who move fast and ship globally. Everything you need, nothing you don't.",
+    "cta1": "Start for free",
+    "cta2": "View documentation"
+  },
+  "stats": {
+    "teams": "Active teams",
+    "uptime": "Uptime SLA",
+    "response": "Avg response time",
+    "integrations": "Integrations"
+  },
+  "features": {
+    "eyebrow": "Everything you need",
+    "items": [
+      { "number": "01", "title": "Instant deployment", "description": "Push your code and go live in seconds. Zero configuration, zero downtime." },
+      { "number": "02", "title": "Global edge network", "description": "Your app served from 200+ locations worldwide. Latency measured in milliseconds." },
+      { "number": "03", "title": "Built-in analytics", "description": "Understand your users with real-time data. No third-party tools required." },
+      { "number": "04", "title": "Automatic scaling", "description": "Handle any traffic spike automatically. Pay only for what you use." },
+      { "number": "05", "title": "Secure by default", "description": "End-to-end encryption, DDoS protection, and SOC 2 compliance out of the box." },
+      { "number": "06", "title": "Team collaboration", "description": "Invite your team, set permissions, and ship together without stepping on each other." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Simple pricing",
+    "monthly": "/month",
+    "plans": [
+      { "name": "Hobby", "price": "Free", "description": "For personal projects and experiments", "features": ["Up to 3 projects", "100GB bandwidth", "Community support", "Basic analytics"], "cta": "Get started" },
+      { "name": "Pro", "price": "$20", "description": "For professional developers and small teams", "features": ["Unlimited projects", "1TB bandwidth", "Priority support", "Advanced analytics"], "cta": "Start free trial" },
+      { "name": "Enterprise", "price": "Custom", "description": "For large teams with advanced needs", "features": ["Everything in Pro", "Custom bandwidth", "Dedicated support", "SLA guarantee"], "cta": "Contact sales" }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to ship faster?",
+    "subtext": "Join thousands of teams already building with us.",
+    "button": "Get started for free"
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact us",
+    "rights": "All rights reserved"
+  }
+}

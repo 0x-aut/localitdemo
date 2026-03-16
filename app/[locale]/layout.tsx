@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// import { LingoProvider } from "@lingo.dev/compiler/react";
+import "@/app/globals.css";
+import * as React from "react";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,11 +22,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  params,
+}: {
+  children: React.ReactNode
+  params: Promise<{ locale: string | undefined }>
+  }) {
+  const { locale }: { locale: string | undefined } = React.use(params)
+  console.log(locale)
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

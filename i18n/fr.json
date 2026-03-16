@@ -11,7 +11,8 @@
     "headline2": "Déployez partout.",
     "subtext": "La plateforme moderne pour les équipes qui avancent vite et déploient à l'échelle mondiale. Tout ce dont vous avez besoin, rien de superflu.",
     "cta1": "Commencer gratuitement",
-    "cta2": "Consulter la documentation"
+    "cta2": ""
+    //Consulter la documentation
   },
   "stats": {
     "teams": "Équipes actives",
@@ -20,7 +21,8 @@
     "integrations": "Intégrations"
   },
   "features": {
-    "eyebrow": "Tout ce dont vous avez besoin",
+    //Tout ce dont vous avez besoin
+    "eyebrow": "",
     "items": [
       {
         "number": "01",
@@ -102,9 +104,9 @@
     "button": "Commencer gratuitement"
   },
   "footer": {
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
-    "contact": "Nous contacter",
-    "rights": "Tous droits réservés"
+    "privacy": "",
+    "terms": "",
+    "contact": "",
+    "rights": ""
   }
 }

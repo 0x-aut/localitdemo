@@ -12,7 +12,6 @@
     "subtext": "La plateforme moderne pour les équipes qui avancent vite et déploient à l'échelle mondiale. Tout ce dont vous avez besoin, rien de superflu.",
     "cta1": "Commencer gratuitement",
     "cta2": ""
-    //Consulter la documentation
   },
   "stats": {
     "teams": "Équipes actives",
@@ -21,7 +20,6 @@
     "integrations": "Intégrations"
   },
   "features": {
-    //Tout ce dont vous avez besoin
     "eyebrow": "",
     "items": [
       {

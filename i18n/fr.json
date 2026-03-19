@@ -11,7 +11,7 @@
     "headline2": "Déployez partout.",
     "subtext": "La plateforme moderne pour les équipes qui avancent vite et déploient à l'échelle mondiale. Tout ce dont vous avez besoin, rien de superflu.",
     "cta1": "Commencer gratuitement",
-    "cta2": ""
+    "cta2": "Voir la documentation"
   },
   "stats": {
     "teams": "Équipes actives",
@@ -20,81 +20,81 @@
     "integrations": "Intégrations"
   },
   "features": {
-    "eyebrow": "",
-    "items": [
-      {
+    "eyebrow": "Tout ce dont vous avez besoin",
+    "items": {
+      "0": {
         "number": "01",
         "title": "Déploiement instantané",
         "description": "Poussez votre code et mettez-le en ligne en quelques secondes. Zéro configuration, zéro interruption."
       },
-      {
+      "1": {
         "number": "02",
         "title": "Réseau edge mondial",
         "description": "Votre application servie depuis plus de 200 emplacements dans le monde. Latence mesurée en millisecondes."
       },
-      {
+      "2": {
         "number": "03",
         "title": "Analytique intégrée",
         "description": "Comprenez vos utilisateurs grâce à des données en temps réel. Aucun outil tiers requis."
       },
-      {
+      "3": {
         "number": "04",
         "title": "Mise à l'échelle automatique",
         "description": "Gérez automatiquement n'importe quel pic de trafic. Payez uniquement ce que vous utilisez."
       },
-      {
+      "4": {
         "number": "05",
         "title": "Sécurisé par défaut",
         "description": "Chiffrement de bout en bout, protection DDoS et conformité SOC 2 dès le départ."
       },
-      {
+      "5": {
         "number": "06",
         "title": "Collaboration d'équipe",
         "description": "Invitez votre équipe, définissez les permissions et déployez ensemble sans vous gêner mutuellement."
       }
-    ]
+    }
   },
   "pricing": {
     "eyebrow": "Tarification simple",
     "monthly": "/mois",
-    "plans": [
-      {
+    "plans": {
+      "0": {
         "name": "Loisirs",
         "price": "Gratuit",
         "description": "Pour les projets personnels et les expérimentations",
-        "features": [
-          "Jusqu'à 3 projets",
-          "100 Go de bande passante",
-          "Support communautaire",
-          "Analyses de base"
-        ],
+        "features": {
+          "0": "Jusqu'à 3 projets",
+          "1": "100 Go de bande passante",
+          "2": "Support communautaire",
+          "3": "Analyses de base"
+        },
         "cta": "Commencer"
       },
-      {
+      "1": {
         "name": "Pro",
         "price": "20 $",
         "description": "Pour les développeurs professionnels et les petites équipes",
-        "features": [
-          "Projets illimités",
-          "1 To de bande passante",
-          "Support prioritaire",
-          "Analyses avancées"
-        ],
+        "features": {
+          "0": "Projets illimités",
+          "1": "1 To de bande passante",
+          "2": "Support prioritaire",
+          "3": "Analyses avancées"
+        },
         "cta": "Démarrer l'essai gratuit"
       },
-      {
+      "2": {
         "name": "Entreprise",
         "price": "Sur mesure",
         "description": "Pour les grandes équipes aux besoins avancés",
-        "features": [
-          "Tout ce qui est inclus dans Pro",
-          "Bande passante personnalisée",
-          "Assistance dédiée",
-          "Garantie SLA"
-        ],
+        "features": {
+          "0": "Tout ce qui est inclus dans Pro",
+          "1": "Bande passante personnalisée",
+          "2": "Assistance dédiée",
+          "3": "Garantie SLA"
+        },
         "cta": "Contacter les ventes"
       }
-    ]
+    }
   },
   "cta": {
     "headline": "Prêt à expédier plus rapidement ?",
@@ -102,9 +102,9 @@
     "button": "Commencer gratuitement"
   },
   "footer": {
-    "privacy": "",
-    "terms": "",
-    "contact": "",
-    "rights": ""
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Nous contacter",
+    "rights": "Tous droits réservés"
   }
 }
